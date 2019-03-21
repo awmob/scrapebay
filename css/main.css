@@ -1,0 +1,31 @@
+
+html{
+  font-family: sans-serif;
+}
+
+body{
+  color:white;
+  background-color: #111;
+}
+
+select{
+  margin-top: 10px;
+}
+
+.error{
+  color: red;
+  font-weight: bold;
+}
+
+a:link{
+  color:white;
+}
+a:visited{
+  color:#eee;
+}
+a:hover{
+  color:#ccc;
+}
+a:active{
+  color: #ccc;
+}
