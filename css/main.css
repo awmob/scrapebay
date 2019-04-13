@@ -17,6 +17,10 @@ select{
   font-weight: bold;
 }
 
+.textbox{
+  text-align: left;
+}
+
 a:link{
   color:white;
 }
@@ -28,4 +32,8 @@ a:hover{
 }
 a:active{
   color: #ccc;
+}
+
+.working{
+  color: green;
 }

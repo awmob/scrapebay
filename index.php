@@ -2,6 +2,11 @@
   error_reporting( E_ALL );
   set_time_limit(0);
 
+  /*
+https://www.ebay.com.au/n/all-categories
+
+  */
+
   //autoload classes
   spl_autoload_register(function ($class_name) {
     $class_name = str_replace("\\","/",$class_name);
@@ -33,7 +38,7 @@
   $pdo = $pdo->get_pdo();
 
   $dbfuncs = new Db\DbFuncs();
-  
+
 
   //show the contents
   $pages = new PageShow\PageShow();

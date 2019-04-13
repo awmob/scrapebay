@@ -51,8 +51,10 @@
 
 
     public function sleeper(){
-      $sleepy = rand(10,100) / 15;
+      $sleepy = rand(18,36) / 15;
       echo "<br><br>Sleep Time: " . $sleepy . " seconds<br>";
+      ob_flush();
+      flush();
       sleep($sleepy);
     }
 

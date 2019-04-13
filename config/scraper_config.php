@@ -8,8 +8,10 @@ global $scraper_config;
 
 $scraper_config = array(
 
-  'base_iterations' => 20,
-  'scrape_interval' => 20000 //5 hours
+  'base_iterations' => 3,
+  'cat_levels' => 3,
+  'min_items' => 10,
+  'scrape_interval' => 259200 //72 hours
 
 );
 
@@ -23,6 +25,10 @@ $sites_config = array(
     'core_category_uri' => 'https://www.ebay.com.au/n/all-categories/?_rdc=1',
 
     'next_page' => '?_pgn=',
+
+    'allcats' => 'https://www.ebay.com.au/n/all-categories',
+
+
 
     //parameters on the category search page
     'search_node_parameters' => [
